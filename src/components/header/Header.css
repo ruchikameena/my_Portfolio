@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo{
+    font-size: 23px;
+    background-color: aqua;
+    width: 20%;
+}
+
+header .links{
+    background-color: yellowgreen;;
+    width: 70%;
+}
+header .links ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header .links ul a{
+    text-decoration: none;
+    color: white;
+}
+
+header .theme{
+    background-color: yellow
+    ;
+    width: 10%;
+}
+header .theme button{
+    display: flex;
+    margin: auto;
+}
