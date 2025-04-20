@@ -1,0 +1,59 @@
+.footer{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.footer_col{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer_left{
+    background-color: yellowgreen;
+    width: 40%;
+}
+
+.footer_left ul{
+    list-style: none;
+}
+
+.footer_left ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.footer_left h3,.footer_right h3{
+    margin-bottom: 10px;
+}
+
+.footer_right{
+    background-color: rgb(160, 160, 29);
+    width: 60%;
+}
+
+.footer_right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_right input,textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.footer_right button{
+    background-color: violet;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_bottom{
+    text-align: center;
+}
+

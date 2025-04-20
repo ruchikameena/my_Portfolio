@@ -1,0 +1,53 @@
+/* Home.css */
+.home-container {
+    padding: 50px;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .left-section {
+    width: 40%;
+  }
+  
+  .right-section {
+    width: 55%;
+  }
+
+  .animated-text p {
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 2rem;
+    max-height: 2rem;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    animation: typing 1s steps(10) 1s 1 normal both;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    max-width: 300px;
+    border-radius: 15px;
+    background-color: yellow;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  

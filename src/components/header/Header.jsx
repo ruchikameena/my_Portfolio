@@ -1,5 +1,6 @@
 import React from 'react';
-import './Header.css'
+import {Link} from "react-router-dom" ;
+import './Header.css';
 
 const Header = () =>{
     return(
@@ -9,13 +10,12 @@ const Header = () =>{
             </div>
             <div className="links">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
-                    <li><a href="#resume">resume</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#achievements">achievements</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/skills">skills</Link></li>
+                    <li><Link to="/projects">projects</Link></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><Link to="/about">about</Link></li>
+                    <li><Link to="/achievements">achievements</Link></li>
                 </ul>
             </div>
             <div className="theme">
